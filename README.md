@@ -35,7 +35,7 @@ We define various layers necessary to the construction of a feed forward neural 
 
 ### my_optim.py 
 
-We define two optimizers: stochastic gradient descent (SGD) and Adam. These optimizers interact with the layer parameters of my_nn by updating their values in a direction that is dictated by one of these optimization algorithm.
+We define two optimizers: stochastic gradient descent (SGD) and Adam. These optimizers interact with the layer parameters of my_nn by updating their values according to one of these optimization algorithm.
 
 ### experiment.ipynb
 
