@@ -12,8 +12,8 @@ Armed with this, we conduct experiments to test the functionality of Mycrograd a
 Our version of the torch.tensor class is called 'Tnsr'. It allows for the creation of an abstract network
 (thanks to the _children attribute) which represents the operations involving the Tnsr instantiations.
 
-Exactly like the torch.tensor, a Tnsr possesses a gradient attribute and thanks to the creation of the
-abstract network, automatic differentiation can be performed (this is captured by the .backward method).
+Exactly like the torch.tensor, a Tnsr possesses a gradient attribute and -- thanks to the creation of the
+abstract network -- automatic differentiation can be performed (this is captured by the .backward method).
 
 Most usual operations (multiplication, addition, power, matmul, indexing ...) are covered.
 
