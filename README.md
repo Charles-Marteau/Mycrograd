@@ -40,5 +40,5 @@ We define two optimizers: stochastic gradient descent (SGD) and Adam. These opti
 ### experiment.ipynb
 
 In this notebook we test our layers, our automatic differentiation and our optimizers by putting everything together in the training of neural networks.
-We define a feed forward neural network and train it on a random dataset. Then we train a transformer to do addition of two-digits numbers. We conclude with a comparison with torch.
+We start with a feed forward neural network and train it on a random dataset. We then train a transformer to do addition of two-digits numbers. We conclude with a comparison with torch.
 
