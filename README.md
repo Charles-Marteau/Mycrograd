@@ -1,9 +1,9 @@
 # Mycrograd
 
 Using only the numpy library, we build a toy version of pytorch which incorporates three key elements: 
-- a toy version of the tensor class [my_engine.py](https://github.com/Charles-Marteau/Mycrograd/blob/main/my_engine.py)
-- a toy version of torch.nn [my_nn.py](https://github.com/Charles-Marteau/Mycrograd/blob/main/my_nn.py)
-- a toy version of torch.optim [my_optim.py](https://github.com/Charles-Marteau/Mycrograd/blob/main/my_optim.py)
+- a toy version of the tensor class: [my_engine.py](https://github.com/Charles-Marteau/Mycrograd/blob/main/my_engine.py)
+- a toy version of torch.nn: [my_nn.py](https://github.com/Charles-Marteau/Mycrograd/blob/main/my_nn.py)
+- a toy version of torch.optim: [my_optim.py](https://github.com/Charles-Marteau/Mycrograd/blob/main/my_optim.py)
 
 Armed with this, we conduct experiments to test the functionality of Mycrograd and ensure proper interaction among its various components, this is done in [experiment.ipynb](https://github.com/Charles-Marteau/Mycrograd/blob/main/experiment.ipynb).
 
