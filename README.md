@@ -35,10 +35,10 @@ We define various layers necessary to the construction of a feed forward neural 
 
 ### my_optim.py 
 
-We define two optimizers: stochastic gradient descent (SGD) and Adam. These optimizers interact with the layer parameters of my_nn by updating their values according to one of these optimization algorithm.
+We define two optimizers: stochastic gradient descent (SGD) and Adam. These optimizers interact with the layer parameters of my_nn by updating their values according to one of these optimization algorithms.
 
 ### experiment.ipynb
 
 In this notebook we test our layers, our automatic differentiation and our optimizers by putting everything together and training neural networks.
-We define a feed forward neural network and train it on a random dataset. Then we train a transformer to do addition of two digits number. We conclude with a coparison with torch.
+We define a feed forward neural network and train it on a random dataset. Then we train a transformer to do addition of two-digits numbers. We conclude with a comparison with torch.
 
